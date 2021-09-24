@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with keys</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2 style="color: darkslategray; font-weight: 600; font-family: 'Courier New', Courier, monospace;">You can play this song to enjoy more.👇</h2>
+    <audio controls>
+
+        <source src="audio/song.mp3" type="audio/mpeg">
+    </audio>
+    <h2 style="color: darkslategray; font-weight: 600; font-family: 'Courier New', Courier, monospace;">Make your own beats and enjoy using keyboard</h2>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <h3>A</h3>
+            <span>ride</span>
+        </div>
+        <div data-key="83" class="key">
+            <h3>S</h3>
+            <span>hihat</span>
+        </div>
+        <div data-key="68" class="key">
+            <h3>D</h3>
+            <span>tom</span>
+        </div>
+        <div data-key="70" class="key">
+            <h3>F</h3>
+            <span>clap</span>
+        </div>
+        <div data-key="71" class="key">
+            <h3>G</h3>
+            <span>boom</span>
+        </div>
+        <div data-key="72" class="key">
+            <h3>H</h3>
+            <span>open</span>
+        </div>
+        <div data-key="74" class="key">
+            <h3>J</h3>
+            <span>snare</span>
+        </div>
+        <div data-key="75" class="key">
+            <h3>K</h3>
+            <span>kick</span>
+        </div>
+        <div data-key="76" class="key">
+            <h3>L</h3>
+            <span>tink</span>
+        </div>
+
+    </div>
+    <audio data-key="65" src="audio/ride.wav"></audio>
+    <audio data-key="83" src="audio/hihat.wav"></audio>
+    <audio data-key="68" src="audio/tom.wav"></audio>
+    <audio data-key="70" src="audio/clap.wav"></audio>
+    <audio data-key="71" src="audio/boom.wav"></audio>
+    <audio data-key="72" src="audio/openhat.wav"></audio>
+    <audio data-key="74" src="audio/snare.wav"></audio>
+    <audio data-key="75" src="audio/kick.wav"></audio>
+    <audio data-key="76" src="audio/tink.wav"></audio>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
